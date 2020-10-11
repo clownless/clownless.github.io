@@ -1145,29 +1145,6 @@ footer .copyright span{
     color: #fff;
 }
 
-
-/*------------------------ 6 Single Work ------------------------*/
-
-    
-.work-video iframe{
-  width: 100%;
-  min-height: 700px;
-}
-
-.hero.work .hero-inner h1{
-    font-size: 90px;
-    font-weight: 600;
-    letter-spacing:-3px;
-    margin-bottom: 30px;  
-    line-height: 102px;
-    color:#fff;
-}
-
-.hero.work{
-    background: url(../img/home.jpg) top center;
-    background-size: cover;
-}
-
 .hero .hero-inner p {
     color: #ffffff;
     font-size: 19px;
@@ -1178,6 +1155,19 @@ footer .copyright span{
     color: #ffffff;
     font-size: 19px;
     opacity: 0.8;
+}
+
+.typed::after {
+    content: '|';
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+.typed-cursor{
+    opacity: 0;
+    display: none;
 }
 
 @keyframes blink{
