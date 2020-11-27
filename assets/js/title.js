@@ -1,5 +1,5 @@
-var text = ["$", " $", "r $", "3r $", "x3r $", "4x3r $", "m4x3r $", "m4x3 $", "m4x $","m4 $","m $"," $"];
-var counter = 0;
+var text = ["$", " $", "s $", "ss $", "3ss $", "l3ss $", "nl3ss $", "wnl3ss $", "ownl3ss $","lownl3ss $","clownl3ss $","clownl3s $", "clownl $", "clown $", "clow $", "clo $", "cl $", "c $"];
+var counter = 0
 var inst = setInterval(change, 300);
 
 function change() {
