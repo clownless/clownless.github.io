@@ -6,4 +6,3 @@ $(function() {
         cursorChar: "|",
     });
 });
-        
