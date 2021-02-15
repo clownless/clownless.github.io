@@ -134,7 +134,7 @@ object-fit: cover;
 }
 
 .hero{
-    background: url("https://m4x3r.xyz/assets/gif/background.gif") center center;
+    background: url(../gif/background.gif) center center;
     background-size: cover;
     display: table;
     width: 100%;
